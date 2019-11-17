@@ -10,6 +10,10 @@ flask = "*"
 flask-sqlalchemy = "*"
 flask-marshmallow = "*"
 marshmallow-sqlalchemy = "*"
+torch = "*"
+torchvision = "*"
+flask-migrate = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.6"

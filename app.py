@@ -8,6 +8,7 @@ from src.neural_net import initNeuralNet, sampleTrain
 from config import config
 
 app = Flask(__name__)
+
 registerBlueprints(app)
 app.config.update(config)
 
